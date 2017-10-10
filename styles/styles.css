@@ -1,1 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+//notes
+
+.single_product {
+float :left;
+padding: 10px;
+margin-left: 20px;
+
+}
+
+.single_product img {
+border: green solid 2px;	
+	
+}
+
+.main_wrapper{
+width : 1000px;
+height :auto;
+margin : auto;
+}
+
+.content_wrapper{
+width : 1124px;
+height : auto;
+margin-top : 177px;
+
+}
+
+#left_sidebar{
+width : 235px;
+height : auto;
+background : #000;
+float : left;
+padding : 62px;
+margin-top : -177px;
+float : left;
+}
+
+
+#cat {
+padding : 5px;
+}
+
+#cats li {
+list-style : none;
+}
+
+#cats a {
+color : #fff;
+font-size : 31px;
+text-decoration: none;
+margin : 39px;
+line-height : 40px;	
+}
+
+#cats a:hover{
+color : orange;	
+}
+
+
+#sidebar_title{
+background : #278f93;
+height : auto;
+color : white;
+padding : 2px;
+font-size : 28px;
+font_family : "palatino linotype", "book Antiqua"
+}
+#content_area{
+padding : 10px;
+}
+
+#product_box {
+padding : 181px;
+margin-left : 435px;
+margin-top: -193px;
+}
+
+
+.single_product {
+float: left;
+padding: 10px;
+margin-left: 20px;
+
+
+}
+
+.single_product img {
+border: green solid 2px;
+
+}
